@@ -75,9 +75,7 @@ while(true);
 // GPS displayInfo
 void displayInfo() {
 
-//if (gps.location.isValid()) {
-if (1) {
-
+if (gps.location.isValid()) {
 double latitude = (gps.location.lat());
 double longitude = (gps.location.lng());
 
